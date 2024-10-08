@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @GetMapping("/jenkins")
-    public  void Jenkins(){
-        System.out.println("jenkins");
+    public String Jenkins(){
+        return "jenkins";
     }
 }
