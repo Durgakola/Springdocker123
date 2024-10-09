@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/jenkins")
     public String Jenkins(){
-        return "jenkins from docker   jr.Dinesh ";
+        return "jenkins from docker  jenkins ";
     }
 }
